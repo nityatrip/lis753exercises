@@ -1,0 +1,102 @@
+h1 {
+  color: #9D219F;
+  font-family: garamond;
+  font-size: 72px;
+  letter-spacing: -3px;
+  margin-top: 0;
+  margin-bottom: .125em;
+  text-align: center;
+  font-weight: 800;
+}
+
+  hl#article-title {
+    font-size: 48px;
+}
+
+p {
+  font-family: georgia;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding-left: 0;
+  border: 1 px solid MediumVioletRed;
+}
+
+nav ul li {
+  border-bottom: 1px solid MediumVioletRed;
+  padding: 5px;
+}
+
+nav ul li a {
+  color: MediumVioletRed;
+  text-decoration: none;
+  padding: 12px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+  border-bottom: 3px solid MediumVioletRed;
+  padding-bottom: 9px;
+}
+
+figure.main-image {
+background: PaleVioletRed;
+border-color: MediumVioletRed;
+color: #ffffff;
+}
+
+figure.section-image {
+float: right;
+margin-left: 20px;
+margin-bottom: 32px;
+max-width: 320px;
+}
+
+figure.section-image.odd {
+float: right;
+margin-left: 20px;
+}
+
+figure.section-image.even {
+float: left;
+margin-right: 20px;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+header nav ul {
+border-top: 1px solid MediumVioletRed;
+padding-bottom: 1px;
+}
+
+footer nav {
+
+
+}
+
+}
+header nav ul li a:hover {
+  border-bottom: 3px solid MediumVioletRed;
+  padding-bottom: 9px;
+}
+
+footer nav ul li a:hover {
+text-decoration: underline;
+}
+
+footer#page-footer {
+padding: 32px 0;
+margin-top: 64px;
+text-align: center;
+background-color: MediumVioletRed;
+color: #ffffff;
+}
